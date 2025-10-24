@@ -1,0 +1,47 @@
+.body{
+    background-color: #f2f2f2;
+}
+
+.imgcarousel{
+    height: 30%;
+    width: 100%;
+}
+.changebtn{
+    background-color: orangered;
+    border-radius: 30px;
+    
+   
+}
+.achievementContainer{
+    width: 1200px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 30px;
+    position: relative;
+    top: -50px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+
+}
+.achievementimg{
+    height: 54px;
+  
+    
+}
+.achievementimg1{
+    height: 51px;
+}
+.achievementh2{
+    font-weight: 700;
+    
+}
+.achievementcol{
+    width: 230px;
+}
+.achievementcol4{
+    width:330px;
+}
