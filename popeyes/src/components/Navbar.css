@@ -1,9 +1,42 @@
-.styleul{
+/* .styleul{
     --bs-scroll-height: 100px;
-    /* margin-left: 900px; */
+    margin-left: 900px;
 }
+.navbar{
+ 
+    top: 0px;
+    z-index: 1000;
+    height: 75px;
+  
+}
+
+.styleul li{
+    margin-right: 20px;
+}
+.imglogo{
+    margin-left: 40px;
+}
+.holeNavbar{
+    display: flex;
+}
+
+@media (min-width:1024px){
+    .styleul{
+        margin-left: 900px;
+    }
+}
+@media (max-width:768px){
+    .tgicon{
+       margin-left:;
+     }
+    .li a{
+        margin-left:60px;
+
+    }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------} */
+
 .btn{
-    background-color: rgb(252, 145, 58);
+    background-color: rgb(243, 106, 27);
     border-radius: 20px;
     font-weight:700;
     font-size: smaller;
@@ -12,23 +45,29 @@
     color: aliceblue;
     margin-top:11px;
 }
-.styleul li{
-    margin-right: 20px;
-}
-.imglogo{
-    margin-left: 40px;
+
+.navbar-toggler{
+    background-color: rgb(243, 106, 27);
+    
 }
 @media (min-width:1024px){
-    .styleul{
-        margin-left: 900px;
-    }
+    .navbar{
+ position: sticky;
+    top: 0px;
+    z-index: 1000;
+    height: 75px;
+  
 }
-@media (max-width:768px){
-    .tgicon{
-        margin-left: 150px;
-     }
-    .li a{
-        margin-left:60px;
-
-    }
+.rightNav{
+    margin-left: 950px;
+}
+.nav-item a{
+    margin-right: 30px;
+}
+.nav-item a:hover{
+      color: rgb(0, 178, 169) !important;
+    font-weight: 600;  
+    border-bottom: solid 3px rgb(0, 178, 169);
+    
+}
 }

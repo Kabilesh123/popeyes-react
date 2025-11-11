@@ -1,0 +1,68 @@
+@media (max-width:768px){
+    .menulistA:hover{
+    color: rgb(0, 178, 169);
+    padding-bottom: 17px;
+    font-weight:700 ;
+}
+
+}
+
+@media (min-width:1024px){
+.menulistA:hover{
+    color: rgb(0, 178, 169);
+   
+    
+    font-weight:700 ;
+}
+}
+.contMenu{
+    background-color: white;
+}
+.menulistA{
+    text-decoration: none;
+    color: rgb(34, 33, 33); 
+    font-weight:600 ;
+}
+
+.menulistCol{
+   padding: 20px;
+}
+.menuProductImg{
+    width: 288px;
+    height: 114px;
+}
+.menuProductCardCol{
+    width: 400px;
+    height: 209px;
+    margin: 20px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.menuProductCardTitle{
+    font-size:15px;
+    font-weight: 700;
+}
+.menuProductCardText{
+    font-size: smaller;
+}
+.menuProductCardImg{
+    margin-bottom: 60px;
+    margin-left: 20px;
+    
+}
+.menuProductCard{
+    background-color: white;
+    display: flex;
+    width: 288px;
+    text-align: center;
+    
+}
+.menuProductContainer{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.menuProductCardBody{
+    margin-top: 15px;
+}

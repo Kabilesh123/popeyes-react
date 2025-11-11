@@ -1,3 +1,78 @@
+.achievementcol4{
+    width:330px;
+}
+@media (max-width:768px){
+    .achievementContainer{
+    position: relative;
+    top: -30px; 
+    }
+  .achievementcol4{
+    width:90%;
+}
+   .achievementcol{
+   padding-bottom: 20px;
+  
+} 
+.productsbg{
+   margin-top: -600px;
+  
+}
+.signature{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+.signaturecnt{
+    margin-right: 30px;
+   
+}
+.products{
+    display:block;
+}
+.products-cont{
+     position: relative;
+     top:-350px;
+     left:10px;
+
+}
+.signatureH2{
+    color: rgb(249, 68, 2);
+    font-weight: 100;
+    font-size:large;
+}
+.carosuel2{
+    position: relative;
+    top: -250px;
+}
+.bgcenter{
+    margin-top: -250px;
+}
+
+    
+}
+@media (min-width:1024px){
+    .products-cont{
+    position: relative;
+    top:-750px;
+    left:200px;
+    }
+    .carosuel2{
+    position: relative;
+   top: -650px;
+   }
+   .carousel2img{
+    height: 700px;
+}
+.bgcenter{
+    margin-top: -650px;
+}
+.signature{
+    margin-left: 100px;
+}
+}
+/* --------------------------------------small device---------------------------------------------- */
 .body{
     background-color: #f2f2f2;
 }
@@ -7,13 +82,13 @@
     width: 100%;
 }
 .changebtn{
-    background-color: orangered;
+    background-color: rgb(249, 68, 2);
     border-radius: 30px;
     
-   
+   /*-------------carousel------------------------------------------  */
 }
 .achievementContainer{
-    width: 1200px;
+    width: 75%;
     background-color: white;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -40,8 +115,124 @@
     
 }
 .achievementcol{
-    width: 230px;
+  width: 230px;
+  padding-right: 80px;
+  
 }
-.achievementcol4{
-    width:330px;
+.achievementTxt{
+    margin-left: 10px;
 }
+
+
+/* ----------------------achievement-------------------------------------- */
+.productsbg{
+    width: 567px;
+    height: 896px;
+    
+    
+}
+.products{
+    margin-top: -100px;
+    display: inline;
+    
+}
+.signature{
+   
+   position: relative;
+   top: 375px;
+   
+   
+}
+.signatureH2{
+    color: rgb(249, 68, 2);
+    font-weight: 800;
+    font-size:xx-large;
+}
+.card-title1{
+    color: aliceblue;
+    font-weight: 700;
+    font-size:xx-large;
+    margin-bottom: 50px;
+    
+
+}
+.card-title2{
+    color: aliceblue;
+    font-weight: 700;
+    font-size:xx-large;
+    margin-bottom: 50px;
+   
+
+}
+.card-title{
+    color: aliceblue;
+    font-weight: 700;
+    font-size:xx-large;
+    margin-bottom: 50px;
+    margin-right: 100px;
+
+   
+}
+.card-text{
+    margin-top: -40px;
+    color: rgb(228, 237, 245);
+    font-weight: 500;
+    font-size: large;
+
+}
+.btn-product{
+    margin-right:200px ;
+    background-color:  aliceblue;
+    border-radius: 20px;
+    border-color:rgb(243, 106, 27) ;
+    font-weight:700;
+    font-size: smaller;
+    font-size:medium;
+    
+    color:rgb(243, 106, 27);
+    margin-top:11px;
+}
+
+.font{
+        font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    color: rgb(0, 178, 169);
+
+}
+/* --------------------products-------------------------------------------- */
+
+.carousel-caption{
+    background-color: rgb(248, 124, 53);
+    width: 500px;
+    padding: 30px;
+    height: 350px;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    margin-left: -5%;
+     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.6);
+    
+}
+.carosuel2h2{
+    font-weight: 800;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.carosuel2h1{
+   font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+    color:aliceblue;
+    padding: 20px;
+
+}
+.carosuel2p{
+    color: rgb(228, 237, 245);
+    font-weight: 500;
+    font-size: large;
+}
+/* ----------------------------------carosuel2---------------------------------------------------------------------- */
+

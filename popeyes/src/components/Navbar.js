@@ -1,46 +1,40 @@
 import React from 'react'
 import './Navbar.css'
 import logoimg from "../images/logopop.svg"
+import { Link } from 'react-router-dom'
+import Stores from '../pages/Stores.js';
 
 const Navbar = () => {
   return (
-      <>
+    <>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
   <div class="container-fluid">
-    <div>
+    <Link class="navbar-brand" to="/">  
       <img src={logoimg} className='imglogo'/>
-    </div>
-    <button class="navbar-toggler tgicon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
+    </Link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse right" id="navbarScroll">
-      <ul class="navbar-nav  me-auto my-2 my-lg-0 navbar-nav-scroll styleul " >
+    <div class="collapse navbar-collapse rightNav" id="navbarTogglerDemo02">
+      <ul class="navbar-nav  mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <Link class="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">Menu</a>
+          <Link class="nav-link  active" to="/Menu">Menu</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Store</a>
+          <Link class="nav-link active" to="/Stores" tabindex="-1" aria-disabled="true">Stores</Link>
         </li>
-       
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Our story</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          <li class="nav-item">
+          <Link class="nav-link active" to="/Contact" tabindex="-1" aria-disabled="true">Contact us</Link>
         </li>
       </ul>
       <form class="d-flex">
-
-        <button class="btn btn-outline-success" type="submit">Download app</button>
+        <button class="btn btn-outline-success" type="submit">Download App</button>
       </form>
     </div>
   </div>
-</nav>
 </nav>
     </>
   )

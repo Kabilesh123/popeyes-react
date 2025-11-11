@@ -1,0 +1,169 @@
+@media (max-width:768px){
+    .primaryLinks{
+    display: flex;
+   margin-top: 30px;
+   left: 20px;
+   justify-content: space-between;
+   width: 350px;
+}
+.row-foot{
+    
+    display: flex;
+    /* background-color: red; */
+    margin-left: -5%;
+}
+.footer-bg{
+     background-color:rgb(36, 33, 33, 1);
+        width:100%;
+        height:fit-content;
+         background-image:url(C:\Users\Welcome\OneDrive\Desktop\popeyesReact\popeyes\src\images\footer-lovethatchicken.svg);
+         background-repeat: no-repeat;
+         background-position: right bottom;
+         
+
+       
+}
+/* .secondaryLinks{
+   display: flex;
+  
+   left: 20px;
+   justify-content: space-between;
+   width: 300px; 
+   font-size: small;
+} */
+}
+@media (min-width: 1024px){
+.primaryLinks{
+    display: flex;
+   margin-top: 30px;
+   left: 20px;
+   justify-content: space-between;
+   width: 400px;
+}
+.row-foot{
+    
+    display: flex;
+    /* background-color: red; */
+   
+     margin-left: -2%;
+}
+.footer-bg{
+     background-color:rgb(36, 33, 33, 1);
+        width:100%;
+        height:425px;
+         background-image:url(C:\Users\Welcome\OneDrive\Desktop\popeyesReact\popeyes\src\images\footer-lovethatchicken.svg);
+         background-repeat: no-repeat;
+         background-position: right bottom;
+         
+
+       
+}
+
+/* .secondaryLinks{
+   display: flex;
+  
+   left: 20px;
+   justify-content: space-between;
+   width: 600px; 
+   font-size: small;
+} */
+
+}
+
+.div1{
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+    height: 500px; 
+   
+}
+.wordmark{
+    margin-top: 30px;
+    margin-right:1500px;
+}
+.line{
+color: white;
+}
+
+.footerCnt{
+    margin-left: 60px;
+}
+.a{
+    text-decoration: none;
+    
+}
+.primaryLinksH5{
+text-decoration: none;
+color: white;
+
+}
+.secondarycnt{
+    display: block !important;
+   margin-bottom: -1%;
+   width:150px !important;
+}
+
+.primaryLinksH5 p{
+    /* background-color: red !important; */
+
+ border-right: 2px solid white;
+ font-size: small;
+
+
+ 
+}
+
+
+.primaryLinksH5L{
+    text-decoration: none;
+    color: white;
+}
+.secondaryLinks{
+   margin: 0%;
+}
+.txt{
+    color: white;
+    text-align: left;
+    font-size: small;
+    margin-top: 0%;
+}
+.txt p{
+    margin-bottom: 0px;
+}
+.icons{
+    
+  margin-top: 20px;
+  margin-left:-1475px;
+}
+.iconA{
+    padding: 5px;
+    background-color: rgb(248, 124, 53);
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.btn1-1txt p{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.btn1-1txt{
+    margin-left: 15px;
+    color: white;
+}
+.btn1-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border-radius: 10px;
+    margin-left: 55px;
+    margin-top: 40px;
+    background-color:rgb(36, 33, 33, 1) ;
+}
+.copyrighttxt{
+    color: white;
+    font-size: smaller;
+}
+.copyright{
+   margin-left:-1300px;
+   margin-top: 30px;
+}

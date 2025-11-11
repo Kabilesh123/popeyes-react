@@ -1,0 +1,94 @@
+.stores-content-full{
+    margin-left: 0px;
+}
+.stores-section{
+    background-color:#f2f2f2 ;
+}
+.bgImage{
+    width: 100%;
+    height: 178px;
+    background-image: url(C:\Users\Welcome\OneDrive\Desktop\popeyesReact\popeyes\src\images\common-banner.png);
+    display: flex;
+    justify-content: center;
+}
+.bgImagein{
+    width: 120px;
+    height: 185px;
+    
+}
+.bgImageinH1{ 
+    font-size: 50px;
+    margin-top: 57px;
+    color: white;
+    text-shadow: 0px 2px 4px #000000;
+}
+/* ------------------------------------------------------------------------------------------ */
+.stores-content{
+    display: flex;
+    margin-top: 20px;
+   
+}
+.btn-stores{
+    width: 190px;
+    height: 60px;
+    margin-left: 10px;
+    border: none;
+    margin-top: -8px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 4px;
+}
+.hrStore{
+    color: #000000;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+}
+.stores-coimbatore-h1{
+    font-weight: 800;
+}
+.stores-coimbatore-p{
+    font-weight: 600;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.inCol{
+   width: 392px !important;
+   height: 554px;
+   background-color:white;
+  
+}
+.locationimg,.locationsImg{
+    width: 392px;
+    height: 218px;
+}
+.locationsTxtP{
+    font-size: 12px;
+    margin-top: -7px;
+}
+.locationsTxt{
+    padding-left: 20px;
+    width: 392px;
+}
+.locationsTxtH4{
+    margin-bottom: 15px;
+}
+.stores-content-full{
+    margin-left: 50px;
+}
+.locationsContainer{
+margin-top: 50px;
+}
+.locationsCol53{
+    /* display:block !important;
+    margin-right: 50px;
+    width:400px !important; */
+}
+.Footer{
+    margin-top: 60px;
+}
+.colOfLocation{
+    width: 418px !important;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 548px;
+}
